@@ -18,7 +18,7 @@
 
 
                   <div class="col-md-6">
-                    <select class="" name="">
+                    <select class="" name="rol_id">
 
                     @foreach ($rols as $rol)
                       <option class="form-control" value="{{ $rol->id }}">{{ $rol->name }}</option>

@@ -10,6 +10,22 @@
           <div class="panel-body">
             <form class="form-horizontal" method="POST" action="{{ route('register') }}">
               {{ csrf_field() }}
+              <div class="form-group{{ $errors->has('rol') ? ' has-error' : '' }}">
+                <label for="rol" class="col-md-4 control-label">Rol</label>
+
+                <div class="col-md-6">
+                  <select class="" name="rol_id">
+                    <option class="form-control" value="1">Administrador</option>
+                    <option class="form-control" value="2">Tecnico</option>
+                  </select>
+
+                  @if ($errors->has('rol'))
+                    <span class="help-block">
+                      <strong>{{ $errors->first('rol') }}</strong>
+                    </span>
+                  @endif
+                </div>
+              </div>
 
               <div class="form-group{{ $errors->has('first_name') ? ' has-error' : '' }}">
                 <label for="first_name" class="col-md-4 control-label">First Name</label>
