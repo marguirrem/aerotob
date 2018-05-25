@@ -344,14 +344,54 @@
 
         <li class=" treeview">
           <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Usuarios</span>
+            <i class="fa fa-dashboard"></i> <span>Empleados</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li class="active"><a href="/user/create"><i class="fa fa-circle-o"></i> Crear Usuario</a></li>
-            <li><a href="/user"><i class="fa fa-circle-o"></i> Ver Usuarios</a></li>
+            <li class="active"><a href="/user/create"><i class="fa fa-circle-o"></i> Crear Empleado</a></li>
+            <li><a href="/user"><i class="fa fa-circle-o"></i> Ver Empleados</a></li>
+          </ul>
+        </li>
+
+        <li class=" treeview">
+          <a href="#">
+            <i class="fa fa-dashboard"></i> <span>Clientes</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li class="active"><a href="/cliente/create"><i class="fa fa-circle-o"></i>Ingresar Cliente</a></li>
+            <li><a href="/cliente"><i class="fa fa-circle-o"></i>Ver Cliente</a></li>
+            <li><a href="/cliente"><i class="fa fa-circle-o"></i>Editar Cliente</a></li>
+          </ul>
+        </li>
+
+        <li class=" treeview">
+          <a href="#">
+            <i class="fa fa-dashboard"></i> <span>Orden de servicio</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li class="active"><a href="/user/create"><i class="fa fa-circle-o"></i>Ingresar Orden</a></li>
+            <li><a href="/user"><i class="fa fa-circle-o"></i> Ver Orden</a></li>
+          </ul>
+        </li>
+
+        <li class=" treeview">
+          <a href="#">
+            <i class="fa fa-dashboard"></i> <span>Asignaciones</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li class="active"><a href="/asignacion/create"><i class="fa fa-circle-o"></i>Crear Asignacion</a></li>
+            <li><a href="/asigancion"><i class="fa fa-circle-o"></i> Ver asignacion</a></li>
           </ul>
         </li>
   <!--
